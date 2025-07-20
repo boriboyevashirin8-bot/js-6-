@@ -5,3 +5,8 @@ Javob: Js da o'zgaruvchilarning 3 ta turi majvud ular: var , let , const.
 2.Let const ni farqi ?
 
 Javob: let o‘zgaruvchan qiymatlar uchun ishlatiladi const esa doimiy o‘zgarmas qiymatlar uchun ishlatiladi aossiy farqi shunda.
+
+
+
+
+hskd66dke6ukssrhjdk
