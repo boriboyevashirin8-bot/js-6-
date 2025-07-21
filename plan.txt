@@ -7,5 +7,136 @@ Javob: Js da o'zgaruvchilarning 3 ta turi majvud ular: var , let , const.
 Javob: let o‘zgaruvchan qiymatlar uchun ishlatiladi const esa doimiy o‘zgarmas qiymatlar uchun ishlatiladi aossiy farqi shunda.
 
 
+3.var let farqi ?
 
 
+Javob: Asosiy farq  var – function scope bu degani qayta e’lon qilish mumkin, let – block scope esa qayta e’lon qilish mumkin emas.
+
+
+4.Data types asosiy nechi xil turga bolinadi ?
+
+
+Javob: 2turga bo'linadi: **Primitive,**    **Non-primitive** hisoblanadi va Primitiv tiplarga quyidagilar kiradi : Number, String, Boolean, Null, Undefined, Symbol va BigInt;      Non-primitive tiplarga esa quyidagilar kiradi: Object, Array;
+
+
+
+5.Primitiv va No-primitiv (refrence) farqi ?
+
+
+Primitiv bu mustaqil qiymat,  Reference esa bir xil obyektga ishora qiladi farqi shunda.
+
+
+6. Type conversion  haqida malumot bering?
+
+
+Javob:Type Conversion — bu dasturlashda bir turdagi  ma’lumotni boshqa turga aylantirish jarayoni.
+
+
+7. Type conversion necha xil usuli bor?
+
+
+Type Conversion uch hil asosiy turi bor ular:  Implicit Type Conversion,  Explicit Type Conversion,  Using Unary Plus Operator.
+
+
+
+8. Avtomatik type conversion haqida malumot bering ?
+
+
+ Avtomatik type conversion bu ma'lumot turini boshqa turga o‘zgartirish.Masalan: string → number, boolean → number, number → string, va hokazo.
+
+
+9. Math objecti haqida malumot bering?
+
+
+ Math — bu Jsda ichki obyektdir.U matematik hisob-kitoblar qilish uchun ko‘plab funksiyalar va konstantalarni o‘z ichiga oladi.
+
+
+10. Truhy and falsy qiymatlarini sanab bering?
+
+
+Falsy:	false, 0, -0, 0n, "", null, undefined, NaN
+Truthy	 ushbu falsydan tashqari boshqa hamma qiymatlar: "0", [], {}, 1, true, " " va boshqalar...
+
+
+11. If else haqida malumo bering ?
+
+
+if...else bu shartli operator u  dasturda qandaydir shartga qarab turli kodlarni bajarish imkonini beradi.
+
+
+
+12. Switch case haqida malumot bering ?
+
+
+Switch case if va else mantiqiy operatorlarga alternativa hisoblanadi. Switch operatoriga shartni beramiz unga mos keladigan qiymatlarni esa casega berib chiqiladi. Har bir caseni oxiriga break qo’yilib ketiladi va case shu bilan kodni tugatadi.
+
+
+
+13. Nechi xil asosiy functionlar bor ?
+
+
+Functionlar asosiy 3 hil Function Declaration, Function Expression, Function Arrow.
+
+
+14. Functionlarni bir biridan farqi ?
+
+ASOSAN yozilishida farq qiladi hamda...
+
+Istalgan joyda chaqiriladi (hoisting bor).
+1) function salomBer() {
+  console.log("Salom!");
+}
+salomBer(); 
+
+
+Faqat e’lon qilingan joydan keyin ishlaydi (hoisting yo‘q).
+2)let salom = function() {
+  console.log("Salom, bu expression!");
+};
+salom();
+
+
+Qisqa yoziladi, this tashqi kontekstdan oladi.
+3)let salom = () => {
+  console.log("Salom, bu arrow!");
+};
+salom();
+
+
+
+15. Functionda return ishlashi?
+
+
+return bu funksiya ichidagi natijani tashqariga chiqarish uchun ishlatiladi hamda return yozilgach, funksiya shu yerda to‘xtaydi agar return bo‘lmasa funksiya undefined qaytaradi.
+
+
+
+16. Method nima ?
+
+
+Method — bu obyekt ichidagi funksiya. Yani agar funksiya obyektga tegishli bo‘lsa u method deb ataladi.
+
+
+17. Stringni split malumot bering?
+
+
+Matinni arrayga ajratib beradi.
+
+18.  Loop nima?
+
+Loop — bu biror kodni bir necha marta takrorlash uchun ishlatiladi. Masalan: 1 dan 10 gacha sonlarni chiqarish, ro‘yxatdagi barcha elementlarni ko'shi shu kabilar.
+
+
+19.Loop turlari?
+
+
+Turlari :	for, while, do...while, for...of, for...in
+
+
+20. do while while loopini farqi ?
+
+
+while loop-avval shart tekshiriladi,    do...while loopda - esa avval bajariladi, keyin shart tekshiradi.
+
+
+21.for in for of farqi?
