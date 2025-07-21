@@ -140,3 +140,57 @@ while loop-avval shart tekshiriladi,    do...while loopda - esa avval bajariladi
 
 
 21.for in for of farqi?
+
+
+for...in obyekt va massiv bn ishlaydi ,	for...of esa faqat massiv, string, Map, Set la bn ishlaydi farqi shunda.
+
+
+
+
+22.Assigment operatorlarni sanab bering?
+
+
+Assigment operatorlarga =, +=, -=, /=, %=, **=....
+lekin =  asosiy operator bo'lib qiymatni o‘zgaruvchiga biriktiradi. Qolganlari esa qiymatni olib, o‘sha o‘zgaruvchining o‘ziga qayta yozadi.
+
+
+23. == === farqi ?
+
+== Qiymatlarni solishtiradi
+=== Qiymat va turini solishtiradi
+
+
+24.! operatori haqida?
+
+
+Js'da ! operatori  mantiqiy inkor  operatori bo‘lib, true qiymatini false ga, false qiymatini esa true ga aylantiradi.
+
+
+25.Array method concat?
+
+concat() methodi 2 yoki undan ortiq arraylarni birlashtirib, natijani qaytaradi.
+
+26.Array method reverce?
+
+Js’da reverse() metodi arrayda elementlarini teskari tartibda joylashtiradi — ya'ni arrayni orqadan oldinga aylantiradi.
+
+
+27.Array method splice?
+
+
+Js dagi splice() metodi — arrayni o‘zgartirish uchun ishlatiladi. U arraydan elementlarni o‘chiradi, qo‘shadi yoki almashtiradi.
+
+
+28. Array method foreach ?
+
+foreach() har bir element uchun berilgan funksiyani chiqaradi.
+
+
+29.Arrayni map methodi?
+
+map()  har bir massiv element uchun berilgan funksiyani chiqarib, yangi array yaratadi.
+
+30.Arrayni find methodi haqida malumot bering ?
+
+
+finnd() birinchi bo'lib shartni bajargan array elementni qaytaradi v array ichidagi elementni qidirshda foydalaniladi.
